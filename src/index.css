@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body, .interno-1 {
+  font-size:medium;
+  background-image: url("./images/water.jpeg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #214177;
+}
+
+td {
+  text-align: center;
+}
+
 .intro-items .labels, .inputs {
   display: inline-block;
 }
@@ -6,10 +26,161 @@
   display: inline-block;
 }
 
-
-
 .inputs-item, .labels-item {
   margin-top: 10px;
   margin-right: 10px;
 }
 
+button {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+background-color: #BDD8F1; 
+border-radius: 10px;
+padding: 5px;
+}
+
+p {
+text-align: center;
+font-size: larger;
+}
+
+button:hover {
+-webkit-transform: translateY(-1px);
+transform: translateY(-1px);
+box-shadow: 0 0 5px 5px #31E1F7;
+}
+.quote-items, .intro-items, .letture-items, .totali, .welcome-interno, .welcome-admin, .area-inquilino, .area-amministratore {
+  border: solid 1px #000;
+  width: fit-content;
+  box-shadow: 0 0 5px 5px #82A6CB;
+  background-color: #3667A6;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; 
+  color: #BDD8F1;
+  border-radius: 15px 30px;
+  padding: 20px;
+}
+
+table {
+  text-align: center;
+}
+
+.intro-items:hover, .quote-items:hover, .letture-items:hover, .totali:hover, .login:hover, nav:hover {
+  box-shadow: 0 0 5px 5px #070D59;
+}
+
+.totali table thead th {
+  border: 1px solid;
+}
+
+.totali table tbody tr td, th {
+  border: 1px solid;
+}
+
+td {
+  padding: 10px;
+}
+
+tr.totale-consumo {
+  border: 5px solid;
+  padding-top: 5px;
+}
+
+#consumo {
+  text-align: center;
+}
+
+input {
+  background-color: #BDD8F1;
+  color: #214177;
+  border-radius: 10px;
+}
+
+.letture-items input {
+  margin-top: 12px;
+}
+
+input:focus {
+  background-color: #CDFCF6;
+}
+
+.first-row, .second-row {
+  margin: 1px;
+}
+
+
+
+.first-row {
+  display: flex;
+}
+
+.required {
+  color: #ff0000;
+}
+
+.align-row {
+  display: flex;
+}
+
+.quote-items input {
+  width: 100px;
+  float: right;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+form {
+  display: inline-block;
+}
+
+.intro-items input {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+
+
+.welcome-interno, .welcome-admin {
+  text-align: center;
+}
+
+nav, .login {
+  border: solid 1px #000;
+  box-shadow: 0 0 5px 5px #82A6CB;
+  background-color: #3667A6;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; 
+  color: #BDD8F1;
+  border-radius: 15px 30px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+
+
+.link {
+  color: #BDD8F1;
+  text-decoration: none;
+}
+
+.login {
+  font-size: large;
+}
+
+.username, .password {
+  margin-bottom: 5px;
+}
+
+.username-div, .password-div {
+  margin-bottom: 15px;
+}

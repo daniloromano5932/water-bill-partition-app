@@ -1,0 +1,53 @@
+To export react to Excel:
+https://blog.bitsrc.io/exporting-data-to-excel-with-react-6943d7775a92 
+
+To install a desktop app
+https://www.electronjs.org/docs/latest/
+http://people.loyno.edu/~rharvey/teaching/cosc-a319/2019f/converting-cra-to-electron/
+
+******************************************************************
+
+CODE
+
+destructuring!
+optimise code
+clean css
+format
+
+******************************************************************
+Pagina condomine
+
+
+tabella consumi (data, precedente, attuale, consumo, importo)
+tabella dettagliata (da totali)
+
+chart consumi
+chart importi
+******************************************************************
+
+Pagina amministratore
+nome
+cognome
+indirizzo
+numero telefono
+numero contatore 
+
+modify personal data (which will show in the other components!)
+
+tabella consumi (data, precedente, attuale, consumo, importo)
+tabella dettagliata (da totali)
+
+chart consumi
+chart importi
+
+******************************************************************
+
+login page
+reset password
+password complexity
+
+******************************************************************
+
+Questions
+Morosita ritardo pagamento
+Costi amministrazione
